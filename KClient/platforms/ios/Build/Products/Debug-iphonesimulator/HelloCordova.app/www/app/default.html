@@ -1,0 +1,54 @@
+﻿<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- 加入响应式布局 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+    <!-- 设置safari的属性 -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Remote Camera" />
+
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <title>K+商城APP应用</title>
+
+    <!--begin style-->
+
+    <!--end style-->
+</head>
+<body>
+    <!--begin javascript-->
+    <script src="scripts/cordova/cordova.js"></script>
+    <script src="scripts/plugins/pluginBase.js"></script>
+    <script src="scripts/plugins/alipay.js"></script>
+    <script src="scripts/plugins/email.js"></script>
+    <script src="scripts/plugins/file.js"></script>
+    <script src="scripts/plugins/phone.js"></script>
+    <script src="scripts/plugins/pictureView.js"></script>
+    <script src="scripts/plugins/pluginBase.js"></script>
+    <script src="scripts/plugins/share.js"></script>
+    <script src="scripts/plugins/sms.js"></script>
+    <script src="scripts/plugins/video.js"></script>
+    <script src="scripts/plugins/webView.js"></script>
+    <script src="scripts/cordova/plugins.js"></script>
+    <!--end javascript-->
+    <script type="text/javascript">
+        console.log(window.plugins);
+        function loadUrl() {
+            if (!window.plugins.webView.loadUrl(["http://www.baidu.com", "www.baidu.com"], function (res) {
+            }, function (res) {
+
+            }))
+                alert("error");
+        }
+
+
+    </script>
+    <input type="button" onclick="loadUrl();" value="load:www.baidu.com" />
+    <input type="button" onclick="fromCamera();" value="opoen camera" />
+    <input type="button" onclick="fromAlbum();" value="opoen album" />
+    <input type="button" onclick="saveImage();" value="save image" />
+</body>
+</html>

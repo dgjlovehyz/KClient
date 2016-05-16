@@ -1,0 +1,19 @@
+dependencies: \
+  /Users/zgl/Documents/KClient3.0/KClient/platforms/ios/HelloCordova/Plugins/payPlugin/CDVUpPay.m \
+  /Users/zgl/Documents/KClient3.0/KClient/platforms/ios/HelloCordova/Plugins/payPlugin/CDVUpPay.h \
+  /Users/zgl/Documents/KClient3.0/KClient/platforms/ios/Build/Products/Debug-iphonesimulator/include/Cordova/CDVPlugin.h \
+  /Users/zgl/Documents/KClient3.0/KClient/platforms/ios/Build/Products/Debug-iphonesimulator/include/Cordova/CDVPluginResult.h \
+  /Users/zgl/Documents/KClient3.0/KClient/platforms/ios/Build/Products/Debug-iphonesimulator/include/Cordova/CDVAvailability.h \
+  /Users/zgl/Documents/KClient3.0/KClient/platforms/ios/Build/Products/Debug-iphonesimulator/include/Cordova/CDVAvailabilityDeprecated.h \
+  /Users/zgl/Documents/KClient3.0/KClient/platforms/ios/Build/Products/Debug-iphonesimulator/include/Cordova/NSMutableArray+QueueAdditions.h \
+  /Users/zgl/Documents/KClient3.0/KClient/platforms/ios/Build/Products/Debug-iphonesimulator/include/Cordova/CDVCommandDelegate.h \
+  /Users/zgl/Documents/KClient3.0/KClient/platforms/ios/Build/Products/Debug-iphonesimulator/include/Cordova/CDVInvokedUrlCommand.h \
+  /Users/zgl/Documents/KClient3.0/KClient/platforms/ios/Build/Products/Debug-iphonesimulator/include/Cordova/CDVWebViewEngineProtocol.h \
+  /Users/zgl/Documents/KClient3.0/KClient/platforms/ios/HelloCordova/Classes/pay/uppaySDK/UPPayPluginDelegate.h \
+  /Users/zgl/Documents/KClient3.0/KClient/platforms/ios/HelloCordova/Classes/pay/uppaySDK/UPPayPlugin.h \
+  /Users/zgl/Documents/KClient3.0/KClient/platforms/ios/HelloCordova/Classes/MainViewController.h \
+  /Users/zgl/Documents/KClient3.0/KClient/platforms/ios/Build/Products/Debug-iphonesimulator/include/Cordova/CDVViewController.h \
+  /Users/zgl/Documents/KClient3.0/KClient/platforms/ios/Build/Products/Debug-iphonesimulator/include/Cordova/CDVCommandQueue.h \
+  /Users/zgl/Documents/KClient3.0/KClient/platforms/ios/Build/Products/Debug-iphonesimulator/include/Cordova/CDVScreenOrientationDelegate.h \
+  /Users/zgl/Documents/KClient3.0/KClient/platforms/ios/Build/Products/Debug-iphonesimulator/include/Cordova/CDVCommandDelegateImpl.h \
+  /Users/zgl/Documents/KClient3.0/KClient/platforms/ios/HelloCordova/Classes/lib/GCNetworkReachability-master/GCNetworkReachability.h
